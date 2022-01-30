@@ -1,0 +1,400 @@
+/* BASE
+================================================== */
+
+body {
+	color: #fff;
+    background: #000;
+}
+
+/* LAYOUT
+================================================== */
+
+/*
+	Header
+*/
+
+.header {
+    background: #000;
+}
+
+/*
+	Footer
+*/
+
+.footer {
+    color: #999;
+}
+
+.footer__top {
+    background: #111;
+}
+
+    .footer li a {
+        color: #999;
+    }
+
+    .footer li a:hover {
+        border-bottom-color: #999;
+    }
+
+/* SECTIONS
+================================================== */
+
+/*
+    Section portfolio
+*/
+
+.section--portfolio .portfolio-box__text {
+    color: #999;
+}
+
+/*
+    Intro
+*/
+
+.intro {
+    background-color: #131313;
+}
+
+.intro--bg:after {
+    background-color: #000;
+}
+
+/*
+    Entry
+*/
+
+.entry a {
+    border-bottom-color: #fff;
+}
+
+.entry a:hover {
+    color: #999;
+    border-bottom-color: #ccc;
+}
+
+.entry em {
+    color: #999;
+}
+
+/* MODULES
+================================================== */
+
+/*
+    Carousels
+*/
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: #000;
+}
+
+.swiper-pagination-bullet:before,
+.swiper-pagination-bullet:after {
+    border-bottom-color: #fff;
+}
+
+/*
+    Cover content
+*/
+
+.cover-content__text {
+    background: #000;
+}
+
+/*
+    Icon box
+*/
+
+.icon-box__icon svg {
+    fill: #fff;
+}
+
+.icon-box__number span:after {
+    border-top-color: #fff;
+}
+
+/*
+    Portfolio box
+*/
+
+.portfolio-box__icon {
+    background: #000;
+}
+
+    .portfolio-box__title {
+        color: #fff;
+        background: #000;
+    }
+
+
+.portfolio-box__text {
+    color: #ccc;
+}
+
+/*
+    Author box
+*/
+
+.author-box__title {
+    color: #fff;
+}
+
+.author-box .icon-list {
+    background: rgba(0, 0, 0, .9);
+}
+
+/*
+    Post box
+*/
+
+.post-box {
+    color: #fff;
+}
+
+    .post-box__figure__list {
+        color: #999;
+        background: #000;
+    }
+
+/*
+    Post bar
+*/
+
+.postbar {
+    color: #fff;
+}
+
+    .postbar time {
+        color: #999;
+    }
+
+    .postbar__list {
+        color: #999;
+    }
+
+/*
+    Timeline
+*/
+
+.timeline__item:after {
+    border-left-color: #fff;
+}
+
+    .timeline__number:before {
+        background: #000;
+    }
+
+/*
+    Pricing
+*/
+
+.pricing {
+    border-color: #fff;
+}
+
+    .pricing__col {
+        border-top-color: #fff;
+    }
+
+        .pricing__label {
+            color: #000;
+            background: #fff;
+        }
+
+            .pricing__list li del {
+                color: #999;
+            }
+
+/*
+    Calendar
+*/
+
+.calendar_wrap {
+    border-color: #fff;
+}
+
+    .calendar_wrap caption {
+        color: #fff;
+    }
+
+        .calendar_wrap tbody a,
+        .calendar_wrap tfoot a {
+            color: #999;
+        }
+
+/*
+    Comment
+*/
+
+.comment__header {
+    color: #999;
+}
+
+/* COMPONENTS
+================================================== */
+
+/*
+	Buttons
+*/
+
+.btn--border-primary:hover {
+    color: #000;
+}
+
+.btn--border-white,
+.btn--border-white:focus {
+    border-color: #000;
+    color: #000;
+}
+
+.btn--border-white:hover {
+    color: #fff;
+}
+
+.btn--border-white:before {
+    background: #000;
+}
+
+.btn--simple,
+.btn--simple:focus,
+.btn--simple:hover {
+    color: #fff;
+}
+
+.btn--simple:hover {
+    border-color: #fff;
+}
+
+/*
+    Form controls
+*/
+
+.form-control::-webkit-input-placeholder { color: #fff; }
+.form-control::-moz-placeholder          { color: #fff; }
+.form-control:-ms-input-placeholder      { color: #fff; }
+.form-control:-moz-placeholder           { color: #fff; }
+
+.form-control,
+.form-control:focus,
+.form-control:active {
+    border-color: transparent transparent #fff;
+    background-color: #111;
+}
+
+/*
+    Lists
+*/
+
+.tag-list a:hover {
+    color: #000;
+}
+
+/*
+    Pagination
+*/
+
+.pagination span,
+.pagination a:hover {
+    border-color: #fff;
+}
+
+/*
+    Blockquote
+*/
+
+blockquote:before {
+    opacity: .2;
+}
+
+/* RESPONSIVE
+================================================== */
+
+/*
+	LG and down
+*/
+
+@media screen and (max-width: 1200px) {
+
+    /*
+        Off-canvas
+    */
+
+    .offcanvas {
+        background-color: #fff;
+    }
+
+    .offcanvas__content {
+        background: #000;
+    }
+
+    /*
+    	Navigation
+    */
+
+    .mobile-nav__open__line {
+        background: #fff;
+    }
+
+        .mobile-nav a,
+        .mobile-nav a:focus {
+            color: #000;
+        }
+
+        .mobile-nav a:before {
+            border-top-color: #000;
+        }
+
+    .mobile-nav-active {
+        background: #fff;
+    }
+
+}
+
+/*
+	LG and up
+*/
+
+@media screen and (min-width: 1201px) {
+
+    /*
+        Header
+    */
+
+    .header {
+        background: #000;
+    }
+
+    /*
+        Navigation
+    */
+
+    .navigation li a {
+        color: rgba(100%, 100%, 100%, .6);
+    }
+
+    /* Navigation sub */
+
+    .navigation li li:before {
+        border-top-color: #000;
+    }
+
+        .navigation ul a {
+            color: #000;
+        }
+
+    /* Navigation actions */
+
+    .navigation > li:hover > a,
+    .navigation > li.active > a {
+        color: #fff;
+    }
+
+        .navigation li li:hover > a,
+        .navigation li li.active > a {
+            color: rgba(0, 0, 0, .8);
+        }
+
+}

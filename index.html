@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/favicons/apple-icon-144x144.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <title>Home - Plain</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,800|Muli:300,400,900&amp;subset=latin-ext" />
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="../assets/css/swiper.min.css" />
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/skin-light.css" />
+        <link rel="stylesheet" href="../assets/css/color-light-mono.css" />
+    </head>
+
+    <body>
+        <div class="offcanvas">
+            <nav class="d-xl-none mobile-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Pages</a>
+                        <ul>
+                            <li><a href="portfolio-page.html">Portfolio Page</a></li>
+                            <li><a href="news-page.html">News Page</a></li>
+                            <li><a href="search.html">Search</a></li>
+                            <li><a href="404.html">404</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="offcanvas__content">
+
+                <header class="header d-flex justify-content-between align-items-center padding-x">
+                    <div class="header__left">
+                        <a href="index.html" class="header__logo">
+                            <img src="../assets/img/logo-black.svg" alt="Plain" />
+                        </a>
+                    </div>
+
+                    <nav class="header__right">
+                        <a href="#" class="d-xl-none mobile-nav__open">
+                            <span class="mobile-nav__open__line"></span>
+                            <span class="mobile-nav__open__line"></span>
+                            <span class="mobile-nav__open__line"></span>
+                        </a>
+
+                        <ul class="d-none d-xl-flex navigation">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="portfolio-page.html">Portfolio Page</a></li>
+                                    <li><a href="news-page.html">News Page</a></li>
+                                    <li><a href="search.html">Search</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <section class="intro intro--fullscreen margin-x">
+                    <div class="intro__bg">
+                        <canvas id="intro__canvas" data-colors='["#999", "#ccc", "#fff"]'></canvas>
+                    </div>
+
+                    <div class="container intro__inner">
+                        <h1 class="intro__title">Welcome to Our Company!</h1>
+
+                        <p>Morbi semper rutrum augue, id consequat sapien porttitor et. Phasellus
+                        hendrerit mi sit amet lectus viverra lobortis.</p>
+
+                        <a href="about.html" class="btn miw--270 btn--border-primary">Get to Know Us</a>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <div class="cover-content" data-animate="fadeInUp" style="background-image: url('../assets/img/pictures/architecture-building.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 offset-md-4">
+                                    <div class="cover-content__text">
+                                        <h5 class="section__pretitle">About Us</h5>
+
+                                        <h2 class="section__title" data-animate="fadeInUp">Innovation and Impact</h2>
+
+                                        <p>Curabitur sed lectus velit. Sed eget felis aliquet, suscipit nunc sit
+                                        amet, efficitur nulla. Nunc ultrices sem nibh, eget feugiat est pretium a.
+                                        Mauris imperdiet venenatis nulla et venenatis. Interdum et malesuada fames
+                                        ac ante ipsum primis in faucibus. Praesent fermentum quam quis neque
+                                        rhoncus, sed dignissim eros congue. Ut iaculis sem sit amet lacus varius,
+                                        id vulputate.</p>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta
+                                        diam vitae lacus molestie convallis. Integer aliquam magna at dignissim
+                                        gravida venenatis nulla et venenatis. Interdum et malesuada fames ac ante
+                                        ipsum primis in faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container section">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <article class="icon-box icon-box--lg icon-box--icon" data-animate="fadeInUp">
+                                <div class="icon-box__icon" data-animate="fadeInUp">
+                                    <!-- Icon Responsive -->
+                                    <svg width="448pt" height="448pt" viewBox="-1 0 448 448" xmlns="http://www.w3.org/2000/svg">
+                                    	<path d="m14.633 208v160h112c4.418 0 8 3.582 8 8h32c0-4.418 3.582-8 8-8h112v-160c0-4.418-3.582-8-8-8h-256c-4.418 0-8 3.582-8 8z"/>
+                                    	<path d="m174.63 392h-48c-4.418 0-8-3.582-8-8h-118.63c3.4023 9.582 12.465 15.988 22.633 16h256c10.18 0.027344 19.262-6.3945 22.633-16h-118.63c0 4.418-3.582 8-8 8z"/>
+                                    	<path d="m446.63 200v-192c0-4.418-3.582-8-8-8h-288c-4.418 0-8 3.582-8 8v176h136c13.254 0 24 10.746 24 24h136c4.418 0 8-3.582 8-8z"/>
+                                    	<path d="m358.63 304h64c4.418 0 8 3.582 8 8v128c0 4.418-3.582 8-8 8h-64c-4.418 0-8-3.582-8-8v-128c0-4.418 3.582-8 8-8z"/>
+                                    	<path d="m390.63 264h-58.609l-11.422-40h-17.969v56h88c4.418 0 8-3.582 8-8s-3.582-8-8-8z"/>
+                                    </svg>
+                                </div>
+
+                                <h3 class="icon-box__title"><span>Fully</span> Responsive</h3>
+
+                                <div class="icon-box__text">
+                                    <p>Maecenas dignissim elementum libero et tristique. Proin posuere felis sed
+                                    consectetur malesuada. Vestibulum id laoreet nisi, et blandit ante. Morbi
+                                    nec molestie tortor. Curabitur nec justo pulvinar, vehicula mi quis, imperdiet
+                                    ipsum. Suspendisse pretium tortor venenatis.</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-md-4">
+                            <article class="icon-box icon-box--lg icon-box--icon" data-animate="fadeInUp">
+                                <div class="icon-box__icon" data-animate="fadeInUp">
+                                    <!-- Icon Gear -->
+                                    <svg enable-background="new 0 0 477.08 477.08" version="1.1" viewBox="0 0 477.08 477.08" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                                    	<path d="m477.06 203.08c0-10.801-8.759-19.56-19.56-19.56h-40.182c-3.487-11.337-8.061-22.175-13.526-32.48l28.465-28.465c3.673-3.673 5.731-8.65 5.731-13.837s-2.066-10.164-5.731-13.837l-50.128-50.106c-7.641-7.64-20.026-7.64-27.667 0l-28.465 28.465c-10.303-5.459-21.143-10.024-32.472-13.511v-40.174c0-10.809-8.759-19.567-19.568-19.567h-70.86c-10.801 0-19.56 8.759-19.56 19.567v40.175c-11.337 3.486-22.184 8.06-32.488 13.518l-28.457-28.458c-7.633-7.64-20.025-7.64-27.666-8e-3l-50.112 50.114c-7.633 7.633-7.633 20.041 0 27.673l28.458 28.458c-5.466 10.297-10.04 21.143-13.526 32.472h-40.19c-10.801 1e-3 -19.56 8.76-19.56 19.568v70.876c0 10.801 8.759 19.56 19.559 19.56h40.182c3.479 11.337 8.052 22.184 13.518 32.478l-28.457 28.459c-7.64 7.641-7.64 20.034 0 27.673l50.114 50.114c7.64 7.641 20.033 7.641 27.674 0l28.443-28.443c10.311 5.475 21.166 10.049 32.51 13.534v40.167c0 10.809 8.759 19.566 19.56 19.566h70.86c10.809 0 19.568-8.757 19.568-19.566v-40.167c11.345-3.486 22.199-8.059 32.51-13.534l28.451 28.451c3.673 3.672 8.649 5.729 13.836 5.729s10.165-2.058 13.836-5.729l50.106-50.106c7.633-7.641 7.633-20.034 0-27.665l-28.465-28.466c5.474-10.303 10.047-21.158 13.526-32.494h40.182c5.187 0 10.165-2.058 13.836-5.731 3.665-3.672 5.731-8.649 5.731-13.836l-0.016-70.877zm-238.53 159.6c-68.446 0-124.13-55.689-124.13-124.14 0-68.446 55.688-124.13 124.13-124.13 68.454 0 124.14 55.688 124.14 124.13 0 68.454-55.689 124.14-124.14 124.14z"/>
+                                    	<path d="m238.53 146.21c-50.912 0-92.329 41.417-92.329 92.329 0 50.914 41.417 92.339 92.329 92.339 50.914 0 92.339-41.425 92.339-92.339 0-50.912-41.425-92.329-92.339-92.329z"/>
+                                    </svg>
+                                </div>
+
+                                <h3 class="icon-box__title"><span>Powerful</span> Options</h3>
+
+                                <div class="icon-box__text">
+                                    <p>Donec vitae vulputate nisl. Aenean eget erat sit amet nulla tristique
+                                    convallis non nec lorem. Etiam pellentesque faucibus mauris, eget lobortis
+                                    dolor convallis tristique eget. Maecenas id varius tellus. Phasellus ex nunc,
+                                    gravida nec pellentesque sit amet, faucibus vel arcu.</p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-md-4">
+                            <article class="icon-box icon-box--lg icon-box--icon" data-animate="fadeInUp">
+                                <div class="icon-box__icon" data-animate="fadeInUp">
+                                    <!-- Icon Sketch -->
+                                    <svg width="512pt" height="512pt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                    	<path d="m114.22 0.11719-114.22 114.22 82.434 82.434 38.281-38.285 21.207 21.207-38.281 38.281 21.078 21.082 114.22-114.22zm8.2227 122.43c-3.2734 3.2734-7.625 5.0781-12.25 5.0781s-8.9727-1.8008-12.246-5.0703c-6.7539-6.7578-6.7539-17.746 0-24.496 3.2734-3.2734 7.6211-5.0742 12.246-5.0742s8.9766 1.8008 12.246 5.0703c6.7539 6.7539 6.7539 17.738 0.003906 24.492z"/>
+                                    	<path d="m272.83 387.17 21.273 21.273 38.379-38.379 21.207 21.207-38.379 38.379 21.074 21.074 38.379-38.379 21.207 21.207-38.379 38.379 40.07 40.07 114.22-114.22-124.83-124.83z"/>
+                                    	<path d="m511.95 0-160.73 62.344 98.391 98.387z"/>
+                                    	<path d="m38.031 368.15-24.281 24.277c-8.7578 8.7617-13.586 20.41-13.586 32.801 0 12.391 4.8281 24.035 13.586 32.801l40.168 40.168c8.7617 8.7617 20.41 13.586 32.801 13.586s24.039-4.8242 32.801-13.586l24.277-24.277z"/>
+                                    	<path d="m368.6 122.14-42.281-42.285-267.09 267.09 42.285 42.281z"/>
+                                    	<path d="m380.69 237.02 51.398-51.398-42.281-42.281-267.09 267.09 42.281 42.281z"/>
+                                    </svg>
+                                </div>
+
+                                <h3 class="icon-box__title"><span>Design</span> Quality</h3>
+
+                                <div class="icon-box__text">
+                                    <p>Nulla hendrerit egestas tempus. Fusce posuere faucibus risus, malesuada
+                                    suscipit elit tincidunt a. Vivamus sit amet mi suscipit ante varius iaculis
+                                    vel non nunc. Ut nunc velit, finibus vel finibus sed, placerat at metus. Fusce
+                                    at odio lacinia, bibendum nisl in, vehicula purus. Sed imperdiet.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container container--xl section">
+                    <h5 class="section__pretitle text-center">Portfolio</h5>
+
+                    <h2 class="section__title text-center" data-animate="fadeInUp">Our Amazing<br /> Projects</h2>
+
+                    <ul class="menuitems text-center">
+                        <li class="active" data-filter="all"><a href="#">All</a></li>
+                        <li data-filter="1"><a href="#">Design</a></li>
+                        <li data-filter="2"><a href="#">Development</a></li>
+                        <li data-filter="3"><a href="#">Mobile</a></li>
+                        <li data-filter="4"><a href="#">Print</a></li>
+                        <li data-filter="5"><a href="#">Typography</a></li>
+                    </ul>
+
+                    <div class="row xl-gutters" data-animate="fadeInUp">
+                        <div class="filter-container">
+                            <div class="col-md-6 filtr-item" data-category="2">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-1.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-1.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Metus Vitae</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Development</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="1,3">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-2.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-2.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Condimentum</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Design</li>
+                                        <li>Mobile</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="2,4,5">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-3.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-3.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Praesent Fermentum</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Development</li>
+                                        <li>Print</li>
+                                        <li>Typography</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="3,4">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-4.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-4.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Nam Ac Pulviar</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Mobile</li>
+                                        <li>Print</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="3,6">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-5.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-5.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Sit Amet Tempus</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Mobile</li>
+                                        <li>Typography</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="1">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-6.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-6.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Posuere Et</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Design</li>
+                                        <li>Typography</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container-fluid section bg--primary">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="counter-box text-center" data-animate="fadeInUp">
+                                <span class="counter-box__number" data-counter-up>25</span>
+                                <span class="counter-box__text">Happy <span>Clients</span></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="counter-box text-center" data-animate="fadeInUp">
+                                <span class="counter-box__number" data-counter-up>684</span>
+                                <span class="counter-box__text">Completed <span>Projects</span></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="counter-box text-center" data-animate="fadeInUp">
+                                <span class="counter-box__number" data-counter-up>91</span>
+                                <span class="counter-box__text">Creative <span>Ideas</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section padding-x">
+                    <div class="container">
+                        <h5 class="section__pretitle text-center">Blog</h5>
+
+                        <h2 class="section__title text-center" data-animate="fadeInUp">Latest News</h2>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row xl-gutters">
+                            <article class="col-md-4">
+                                <a href="news-page.html" class="post-box figure-zoom-effect" data-animate="fadeInUp">
+                                    <div class="post-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/post/post-1.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/post/post-1.jpg');"></span>
+
+                                        <ul class="post-box__figure__list">
+                                            <li><time datetime="2019-02-17 00:00"><span>February 17</span>, 2019</time></li>
+                                        </ul>
+                                    </div>
+
+                                    <h3 class="post-box__title">Quisque vitae sema magna porttitor</h3>
+
+                                    <p>Vestibulum feugiat lorem sed magna sodales, vel fringilla sem luctus.
+                                    Cras scelerisque dolor nec nibh condimentum, volutpat posuere nibh fermentum.
+                                    Nam sit amet luctus nisi, eget placerat lorem.</p>
+                                </a>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="news-page.html" class="post-box figure-zoom-effect" data-animate="fadeInUp">
+                                    <div class="post-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/post/post-2.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/post/post-2.jpg');"></span>
+
+                                        <ul class="post-box__figure__list">
+                                            <li><time datetime="2019-02-06 00:00"><span>February 06</span>, 2019</time></li>
+                                        </ul>
+                                    </div>
+
+                                    <h3 class="post-box__title">Cras scelerisque dolor nec nibh condimentum</h3>
+
+                                    <p>Nam maximus nunc ut neque lacinia eleifend. Vestibulum ante ipsum primis
+                                    in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor
+                                    sit amet scelerisque dolor nec nibh.</p>
+                                </a>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="news-page.html" class="post-box figure-zoom-effect" data-animate="fadeInUp">
+                                    <div class="post-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/post/post-3.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/post/post-3.jpg');"></span>
+
+                                        <ul class="post-box__figure__list">
+                                            <li><time datetime="2019-01-17 00:00"><span>January 28</span>, 2019</time></time></li>
+                                        </ul>
+                                    </div>
+
+                                    <h3 class="post-box__title">Nam sit amet luctus nisi, eget placerat</h3>
+
+                                    <p>Morbi et sollicitudin nisl. Donec quis nisi sodales, aliquet mi sed,
+                                    lobortis neque. Ut id purus quis ex tempor maximus. Ut tempor elit id ex
+                                    vestibulum ultrices. Sed euismod pretium ipsum primis in faucibus orci luctus
+                                    et ultrices.</p>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <div class="footer__top padding-x">
+                        <div class="container-fluid">
+                            <div class="row xl-gutters">
+                                <div class="col-xl-4">
+                                    <a href="index.html" class="footer__logo">
+                                        <img src="../assets/img/logo-gray-2.svg" alt="" />
+                                    </a>
+
+                                    <p>Duis tortor turpis, dictum nec augue in, mollis facilisis elit.
+                                    Vestibulum vel quam ornare, viverra urna eu, aliquet tortor. Quisque
+                                    mattis orci auctor, tincidunt libero in, tempor odio.</p>
+                                </div>
+
+                                <div class="col-md-7 col-xl-4">
+                                    <h4 class="footer__title">Head Office</h4>
+
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="list-unstyled">
+                                                <li>201 Oak Street Building 27<br /> New York, USA</li>
+                                                <li>info@domain.com</li>
+                                                <li>+(34) 123 45 67 89</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <p><strong>Mon-Thu:</strong> 9:30 – 21:00<br />
+                                            <strong>Fri:</strong> 10:00 – 21:00<br />
+                                            <strong>Sat:</strong> 10:00 – 15:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 col-xl-4">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h4 class="footer__title">Quick Links</h4>
+
+                                            <ul class="list-unstyled">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="pricing.html">Pricing</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <h4 class="footer__title">Social</h4>
+
+                                            <ul class="icon-list icon-list--text">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                                <li><a href="#"><i class="fab fa-dribbble"></i> Dribbble</a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                                <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container copyright">
+                        <p>Copyright &copy; 2019 Plain - All rights reserved. By <a href="https://themeforest.net/user/davidtovt" target="_blank">davidtovt</a></p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/jquery.viewportchecker.min.js"></script>
+        <script src="../assets/js/jquery.filterizr.min.js"></script>
+        <script src="../assets/js/swiper.min.js"></script>
+        <script src="../assets/js/jquery.counterup.min.js"></script>
+        <script src="../assets/js/script.js"></script>
+    </body>
+</html>

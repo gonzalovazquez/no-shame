@@ -1,0 +1,46 @@
+a,
+a:focus,
+a:active,
+.timeline__number,
+.icon-box__number,
+.section__pretitle,
+.pricing__value,
+.post-box:hover .post-box__title,
+.post-box .article-title a:hover,
+.post-box__figure__list li i,
+.portfolio-box__icon,
+.postbar:hover .postbar__title,
+.icon-list--inline li a:hover,
+.calendar_wrap .today,
+.input-icon .btn:hover,
+.pagination span,
+.text-404__title {
+    color: #f8a80f;
+}
+
+.menuitems li:hover > a:hover,
+.menuitems li.active > a,
+.tag-list a,
+.tag-list a:hover,
+.btn--border-primary,
+.btn--border-primary:focus,
+.list-count a:hover {
+    border-color: #f8a80f;
+}
+
+.tag-list a:hover,
+.btn--border-primary:before {
+    background: #f8a80f;
+}
+
+@media screen and (min-width: 1201px) {
+
+    .navigation ul {
+        background: #f8a80f;
+    }
+
+    .navigation > li:before {
+        border-right-color: #f8a80f;
+    }
+
+}

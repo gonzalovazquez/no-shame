@@ -1,0 +1,391 @@
+/* BASE
+================================================== */
+
+body {
+	color: #000;
+}
+
+/* LAYOUT
+================================================== */
+
+/*
+	Header
+*/
+
+.header {
+    background: #fff;
+}
+
+/*
+	Footer
+*/
+
+.footer {
+    color: #666;
+}
+
+.footer__top {
+    background: #fcfcfc;
+}
+
+    .footer li a {
+        color: #666;
+    }
+
+    .footer li a:hover {
+        border-bottom-color: #666;
+    }
+
+/* SECTIONS
+================================================== */
+
+/*
+    Section portfolio
+*/
+
+.section--portfolio .portfolio-box__text {
+    color: #999;
+}
+
+/*
+    Intro
+*/
+
+.intro {
+    background-color: #f9f9f9;
+}
+
+.intro--bg:after {
+    background-color: #fff;
+}
+
+/*
+    Entry
+*/
+
+.entry a {
+    border-bottom-color: #000;
+}
+
+.entry a:hover {
+    color: #666;
+    border-bottom-color: #ccc;
+}
+
+.entry em {
+    color: #666;
+}
+
+/* MODULES
+================================================== */
+
+/*
+    Carousels
+*/
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: #fff;
+}
+
+.swiper-pagination-bullet:before,
+.swiper-pagination-bullet:after {
+    border-bottom-color: #000;
+}
+
+/*
+    Cover content
+*/
+
+.cover-content__text {
+    background: #fff;
+}
+
+/*
+    Icon box
+*/
+
+.icon-box__icon svg {
+    fill: #000;
+}
+
+.icon-box__number span:after {
+    border-top-color: #000;
+}
+
+/*
+    Portfolio box
+*/
+
+.portfolio-box__icon {
+    background: #fff;
+}
+
+    .portfolio-box__title {
+        color: #000;
+        background: #fff;
+    }
+
+
+.portfolio-box__text {
+    color: #999;
+}
+
+/*
+    Author box
+*/
+
+.author-box__title {
+    color: #000;
+}
+
+.author-box .icon-list {
+    background: rgba(100%, 100%, 100%, .9);
+}
+
+/*
+    Post box
+*/
+
+.post-box {
+    color: #000;
+}
+
+    .post-box__figure__list {
+        color: #999;
+        background: #fff;
+    }
+
+/*
+    Post bar
+*/
+
+.postbar {
+    color: #000;
+}
+
+    .postbar time {
+        color: #999;
+    }
+
+    .postbar__list {
+        color: #999;
+    }
+
+/*
+    Timeline
+*/
+
+.timeline__item:after {
+    border-left-color: #000;
+}
+
+    .timeline__number:before {
+        background: #fff;
+    }
+
+/*
+    Pricing
+*/
+
+.pricing {
+    border-color: #000;
+}
+
+    .pricing__col {
+        border-top-color: #000;
+    }
+
+        .pricing__label {
+            color: #fff;
+            background: #000;
+        }
+
+            .pricing__list li del {
+                color: #999;
+            }
+
+/*
+    Calendar
+*/
+
+.calendar_wrap {
+    border-color: #000;
+}
+
+    .calendar_wrap caption {
+        color: #000;
+    }
+
+        .calendar_wrap tbody a,
+        .calendar_wrap tfoot a {
+            color: #999;
+        }
+
+/*
+    Comment
+*/
+
+.comment__header {
+    color: #999;
+}
+
+/* COMPONENTS
+================================================== */
+
+/*
+	Buttons
+*/
+
+.btn--border-primary:hover {
+    color: #fff;
+}
+
+.btn--border-white,
+.btn--border-white:focus {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn--border-white:hover {
+    color: #000;
+}
+
+.btn--border-white:before {
+    background: #fff;
+}
+
+.btn--simple,
+.btn--simple:focus,
+.btn--simple:hover {
+    color: #000;
+}
+
+.btn--simple:hover {
+    border-color: #000;
+}
+
+/*
+    Form controls
+*/
+
+.form-control::-webkit-input-placeholder { color: #000; }
+.form-control::-moz-placeholder          { color: #000; }
+.form-control:-ms-input-placeholder      { color: #000; }
+.form-control:-moz-placeholder           { color: #000; }
+
+.form-control,
+.form-control:focus,
+.form-control:active {
+    border-color: transparent transparent #000;
+    background-color: #fcfcfc;
+}
+
+/*
+    Lists
+*/
+
+.tag-list a:hover {
+    color: #fff;
+}
+
+/*
+    Pagination
+*/
+
+.pagination span,
+.pagination a:hover {
+    border-color: #000;
+}
+
+/* RESPONSIVE
+================================================== */
+
+/*
+	LG and down
+*/
+
+@media screen and (max-width: 1200px) {
+
+    /*
+        Off-canvas
+    */
+
+    .offcanvas {
+        background-color: #000;
+    }
+
+    .offcanvas__content {
+        background: #fff;
+    }
+
+    /*
+    	Navigation
+    */
+
+    .mobile-nav__open__line {
+        background: #000;
+    }
+
+        .mobile-nav a,
+        .mobile-nav a:focus {
+            color: #fff;
+        }
+
+        .mobile-nav a:before {
+            border-top-color: #fff;
+        }
+
+    .mobile-nav-active {
+        background: #000;
+    }
+
+}
+
+/*
+	LG and up
+*/
+
+@media screen and (min-width: 1201px) {
+
+    /*
+        Header
+    */
+
+    .header {
+        background: #fff;
+    }
+
+    /*
+        Navigation
+    */
+
+    .navigation li a {
+        color: rgba(0, 0, 0, .6);
+    }
+
+    /* Navigation sub */
+
+    .navigation li li:before {
+        border-top-color: #fff;
+    }
+
+        .navigation ul a {
+            color: #fff;
+        }
+
+    /* Navigation actions */
+
+    .navigation > li:hover > a,
+    .navigation > li.active > a {
+        color: #000;
+    }
+
+        .navigation li li:hover > a,
+        .navigation li li.active > a {
+            color: rgba(255, 255, 255, .8);
+        }
+
+}

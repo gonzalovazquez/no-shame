@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/favicons/apple-icon-144x144.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <title>Portfolio - Plain</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,800|Muli:300,400,900&amp;subset=latin-ext" />
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="../assets/css/swiper.min.css" />
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/skin-light.css" />
+        <link rel="stylesheet" href="../assets/css/color-light-mono.css" />
+    </head>
+
+    <body>
+        <div class="offcanvas">
+            <nav class="d-xl-none mobile-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Pages</a>
+                        <ul>
+                            <li><a href="portfolio-page.html">Portfolio Page</a></li>
+                            <li><a href="news-page.html">News Page</a></li>
+                            <li><a href="search.html">Search</a></li>
+                            <li><a href="404.html">404</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="offcanvas__content">
+
+                <header class="header d-flex justify-content-between align-items-center padding-x">
+                    <div class="header__left">
+                        <a href="index.html" class="header__logo">
+                            <img src="../assets/img/logo-black.svg" alt="Plain" />
+                        </a>
+                    </div>
+
+                    <nav class="header__right">
+                        <a href="#" class="d-xl-none mobile-nav__open">
+                            <span class="mobile-nav__open__line"></span>
+                            <span class="mobile-nav__open__line"></span>
+                            <span class="mobile-nav__open__line"></span>
+                        </a>
+
+                        <ul class="d-none d-xl-flex navigation">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="portfolio-page.html">Portfolio Page</a></li>
+                                    <li><a href="news-page.html">News Page</a></li>
+                                    <li><a href="search.html">Search</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <section class="intro intro--bg" style="background-image: url('../assets/img/pictures/background/camera.jpg');">
+                    <div class="container intro__inner">
+                        <h1 class="intro__title">Portfolio</h1>
+
+                        <p>Morbi semper rutrum augue, id consequat sapien porttitor et. Phasellus
+                        hendrerit mi sit amet lectus viverra lobortis.</p>
+                    </div>
+                </section>
+
+                <section class="container section">
+                    <ul class="menuitems text-center">
+                        <li class="active" data-filter="all"><a href="#">All</a></li>
+                        <li data-filter="1"><a href="#">Design</a></li>
+                        <li data-filter="2"><a href="#">Development</a></li>
+                        <li data-filter="3"><a href="#">Mobile</a></li>
+                        <li data-filter="4"><a href="#">Print</a></li>
+                        <li data-filter="5"><a href="#">Typography</a></li>
+                    </ul>
+
+                    <div class="row xl-gutters" data-animate="fadeInUp">
+                        <div class="filter-container">
+                            <div class="col-md-6 filtr-item" data-category="2">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-1.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-1.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Metus Vitae</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Development</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="1,3">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-2.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-2.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Condimentum</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Design</li>
+                                        <li>Mobile</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="2,4,5">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-3.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-3.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Praesent Fermentum</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Development</li>
+                                        <li>Print</li>
+                                        <li>Typography</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="3,4">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-4.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-4.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Nam Ac Pulviar</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Mobile</li>
+                                        <li>Print</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="3,6">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-5.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-5.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Sit Amet Tempus</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Mobile</li>
+                                        <li>Typography</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6 filtr-item" data-category="1">
+                                <a href="portfolio-page.html" class="portfolio-box figure-zoom-effect">
+                                    <div class="portfolio-box__figure figure-zoom-effect__item">
+                                        <img src="../assets/img/pictures/portfolio/portfolio-6.jpg" alt="" />
+
+                                        <span class="figure-zoom-effect__bg" style="background-image: url('../assets/img/pictures/portfolio/portfolio-6.jpg');"></span>
+
+                                        <h3 class="portfolio-box__title">Posuere Et</h3>
+                                    </div>
+
+                                    <ul class="portfolio-box__text">
+                                        <li>Design</li>
+                                        <li>Typography</li>
+                                    </ul>
+
+                                    <i class="fa fa-arrow-right portfolio-box__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 text-center text-md-left">
+                            <div class="highlighted-text">
+                                <h3 class="highlighted-text__title">Ask for an offer</h3>
+                                <p>Contact us, if you want an awesome website!</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 text-center text-md-right">
+                            <p><a href="contact.html" class="btn btn--border-primary miw--270">Contact</a></p>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <div class="footer__top padding-x">
+                        <div class="container-fluid">
+                            <div class="row xl-gutters">
+                                <div class="col-xl-4">
+                                    <a href="index.html" class="footer__logo">
+                                        <img src="../assets/img/logo-gray-2.svg" alt="" />
+                                    </a>
+
+                                    <p>Duis tortor turpis, dictum nec augue in, mollis facilisis elit.
+                                    Vestibulum vel quam ornare, viverra urna eu, aliquet tortor. Quisque
+                                    mattis orci auctor, tincidunt libero in, tempor odio.</p>
+                                </div>
+
+                                <div class="col-md-7 col-xl-4">
+                                    <h4 class="footer__title">Head Office</h4>
+
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="list-unstyled">
+                                                <li>201 Oak Street Building 27<br /> New York, USA</li>
+                                                <li>info@domain.com</li>
+                                                <li>+(34) 123 45 67 89</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <p><strong>Mon-Thu:</strong> 9:30 – 21:00<br />
+                                            <strong>Fri:</strong> 10:00 – 21:00<br />
+                                            <strong>Sat:</strong> 10:00 – 15:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 col-xl-4">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h4 class="footer__title">Quick Links</h4>
+
+                                            <ul class="list-unstyled">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="pricing.html">Pricing</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <h4 class="footer__title">Social</h4>
+
+                                            <ul class="icon-list icon-list--text">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                                <li><a href="#"><i class="fab fa-dribbble"></i> Dribbble</a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                                <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container copyright">
+                        <p>Copyright &copy; 2019 Plain - All rights reserved. By <a href="https://themeforest.net/user/davidtovt" target="_blank">davidtovt</a></p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/jquery.viewportchecker.min.js"></script>
+        <script src="../assets/js/jquery.filterizr.min.js"></script>
+        <script src="../assets/js/swiper.min.js"></script>
+        <script src="../assets/js/jquery.counterup.min.js"></script>
+        <script src="../assets/js/script.js"></script>
+    </body>
+</html>
